@@ -45,7 +45,7 @@ def hit?(card_total)
  until command == 'h' || command == 's'  
   invalid_command 
   prompt_user
-  get_user_input
+  command2 = get_user_input
   if get_user_input == 'h'
     card_total += deal_card
     card_total
